@@ -39,7 +39,7 @@ portfolio:
           {% for item in page.portfolio %}
             <div class="col-lg-4 col-sm-6">
                 <a href="{{ item.url }}" class="portfolio-box">
-                    <img src="item.image_path" class="img-responsive" alt="{{ item.project }}">
+                    <img src="{{ item.image_path }}" class="img-responsive" alt="{{ item.project }}">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
